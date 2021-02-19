@@ -1,0 +1,88 @@
+to destoy an object 
+user.last.destroy
+
+http://localhost:3000/auth/google_oauth2
+
+dotenv gem to set environment variables
+
+rails s -p 4000
+
+rails db:seed 
+rails db:migrate
+
+add a column to a table 
+rails generate migration AddThumbnailToVideo thumbnail:string 
+
+rails generate migration RemoveNameFromUsers name:string
+
+rails generate scaffold Subscription user_id:integer sub_id:integer
+
+To drop database
+
+rake db:drop
+Then for creating database
+
+rake db:create
+For migrations
+
+rake db:migrate
+For seed
+
+rake db:seed
+
+# user  XXXXXXXXXXXXXXXXXXXXXXXXXXX
+# - id 
+# - username text 
+# - first name text 
+# - last name text 
+# - email text 
+# - password text
+# - description text 
+# - image text 
+# - banner text 
+# - created text
+
+# relationships 
+# - has many videos XXXXXXXXXXXXXXXXX
+# - has many comments (Do later)
+# - has many subscriptions XXXXXXXXXXXX
+# - has many likes  (Do later)
+# - has many dislikes (Do later)
+
+# video  XXXXXXXXXXXXXXXXXXXXXXX
+# - id
+# - url text
+# - title text
+# - views number
+# - created 
+# - description
+# - thumbnail : string
+
+# relationships 
+# - has one user XXXX
+# - has many comments (do latter)
+# - likes (do latter)
+# - dislikes (do latter)
+
+# comment XXXXX
+# - id
+# - statement
+# - created
+# - user_id
+# - video_id 
+
+relationships XXXX
+# - belongs to user 
+# - belongs to video 
+# - has_many likes
+# - has_many dislikes 
+
+# like (do latter)
+# - id 
+# - user_id num number
+# - comment_id number
+
+# dislikes (do latter)
+# - id 
+# - user_id 
+# - comment_id
