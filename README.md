@@ -1,25 +1,31 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Youtube Clone API
+An Ruby on Rails API for a Youtbe Clone <a href="https://github.com/cruzgerman216/react-youtubeclone">React Frontend</a>. This API utilizes an MVC format while the view is the React frontend.
 
-Things you may want to cover:
+## Video Demonstration 
 
-* Ruby version
+Click on the image to see a live video of me demonstrating the full stack application.
 
-* System dependencies
+<a href="https://www.youtube.com/embed/ZC3gQ9H5Zqg" target="_blank"><img src="https://i.ibb.co/pLVq33L/youtubeclone.png" 
+alt="Image of Youtube Clone" width="240" height="180" border="10" /></a>
 
-* Configuration
 
-* Database creation
+## Live Frontend Application link
+<a href="germancruzclone.web.app/"> Youtube Clone Frontend<a/>
+  
+## Live Backend API link
+<a href="https://germancruz-youtubecloneapi.herokuapp.com/"> Youtube Clone Backend <a/>
 
-* Database initialization
 
-* How to run the test suite
+## Prerequisites
 
-* Services (job queues, cache servers, search engines, etc.)
+- You have installed the latest version of ruby
+- You have a basic understanding of ruby on rails
+- You are using a Linux or Mac OS machine. 
 
-* Deployment instructions
+## To start 
 
-* ...
-# youtubecloneapi
+Rails s
+
+
